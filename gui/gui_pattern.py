@@ -13,7 +13,10 @@ from assets.garment_programs.meta_garment import MetaGarment
 from assets.bodies.body_params import BodyParameters
 import pygarment as pyg
 from pygarment.meshgen.boxmeshgen import BoxMesh
-from pygarment.meshgen.simulation import run_sim
+try:
+    from pygarment.meshgen.simulation import run_sim
+except (ImportError, ModuleNotFoundError):
+    run_sim = None
 import pygarment.data_config as data_config
 from pygarment.meshgen.sim_config import PathCofig
 
@@ -231,6 +234,10 @@ class GUIPattern:
             paths, store_panels=False, uv_config=props['render']['config']['uv_texture'])
 
         # TODOLOW Don't print progress to console with so many lines
+        if run_sim is None:
+            raise RuntimeError(
+                "NVIDIA Warp simulator is not installed. 3D simulation is disabled, but 2D pattern generation works."
+            )
         run_sim(
             garment_box_mesh.name, 
             props, 

@@ -91,6 +91,7 @@ class GUIState:
         self.pattern_state.reload_garment()
         self.stylings()
         self.layout()
+        self._sync_update_state()
 
     def release(self):
         """Clean-up after the sesssion"""
@@ -148,13 +149,13 @@ class GUIState:
                 on_click=lambda: ui.navigate.to('https://igl.ethz.ch/projects/garmentcode/', new_tab=True)
                 ).props('flat color=white')
             with ui.link(target='https://arxiv.org/abs/2306.03642', new_tab=True):
-                ui.html(icon_arxiv).classes('w-16 bg-transparent')
+                ui.html(icon_arxiv, sanitize=False).classes('w-16 bg-transparent')
             ui.button(
                 'Dataset', 
                 on_click=lambda: ui.navigate.to('https://igl.ethz.ch/projects/GarmentCodeData/', new_tab=True)
                 ).props('flat color=white')
             with ui.link(target='https://github.com/maria-korosteleva/GarmentCode', new_tab=True):
-                ui.html(icon_github).classes('w-8 bg-transparent')
+                ui.html(icon_github, sanitize=False).classes('w-8 bg-transparent')
         # NOTE No ui.left_drawer(), no ui.right_drawer()
         with ui.footer(fixed=False, elevated=True).classes('items-center justify-center p-0 m-0'): 
             # https://www.termsfeed.com/blog/sample-copyright-notices/
@@ -447,53 +448,96 @@ class GUIState:
     def def_body_file_dialog(self):
         """ Dialog for loading parameter files (body)
         """
+        async def _read_content(e):
+            import inspect
+            if hasattr(e, 'file') and e.file:
+                res = e.file.read()
+                return await res if inspect.isawaitable(res) else res
+            if hasattr(e, 'content') and e.content:
+                res = e.content.read()
+                return await res if inspect.isawaitable(res) else res
+            return b""
+
         async def handle_upload(e: events.UploadEventArguments):
-            param_dict = yaml.safe_load(e.content.read())['body']
+            try:
+                raw = await _read_content(e)
+                loaded = yaml.safe_load(raw)
+                if not isinstance(loaded, dict) or 'body' not in loaded:
+                    if isinstance(loaded, dict) and 'design' in loaded:
+                        ui.notify('To jest plik projektu! Wgraj go w zakładce Design parameters.', type='warning')
+                    else:
+                        ui.notify('Niepoprawny plik sylwetki: brak sekcji "body".', type='negative')
+                    return
+                param_dict = loaded['body']
 
-            self.toggle_param_update_events(self.ui_active_body_refs)
+                self.toggle_param_update_events(self.ui_active_body_refs)
 
-            self.pattern_state.set_new_body_params(param_dict)
-            self.update_body_params_ui_state(self.ui_active_body_refs)            
-            await self.update_pattern_ui_state()
+                self.pattern_state.set_new_body_params(param_dict)
+                self.update_body_params_ui_state(self.ui_active_body_refs)            
+                await self.update_pattern_ui_state()
 
-            self.toggle_param_update_events(self.ui_active_body_refs)
+                self.toggle_param_update_events(self.ui_active_body_refs)
 
-            ui.notify(f'Successfully applied {e.name}')
-            self.ui_body_dialog.close()
+                filename = getattr(e, 'name', getattr(getattr(e, 'file', None), 'name', 'plik'))
+                ui.notify(f'Successfully applied {filename}')
+            finally:
+                self.ui_body_dialog.close()
 
         with ui.dialog() as self.ui_body_dialog, ui.card().classes('items-center'):
             # NOTE: https://www.reddit.com/r/nicegui/comments/1393i2f/file_upload_with_restricted_types/
             ui.upload(
                 label='Body parameters .yaml or .json',  
-                on_upload=handle_upload
-            ).classes('max-w-full').props('accept=".yaml,.json"')  
+                on_upload=handle_upload,
+                auto_upload=True
+            ).classes('max-w-full').props('auto-upload accept=".yaml,.json"')  
 
             ui.button('Close without upload', on_click=self.ui_body_dialog.close)
 
     def def_design_file_dialog(self):
         """ Dialog for loading parameter files (design)
         """
+        async def _read_content(e):
+            import inspect
+            if hasattr(e, 'file') and e.file:
+                res = e.file.read()
+                return await res if inspect.isawaitable(res) else res
+            if hasattr(e, 'content') and e.content:
+                res = e.content.read()
+                return await res if inspect.isawaitable(res) else res
+            return b""
 
         async def handle_upload(e: events.UploadEventArguments):
-            param_dict = yaml.safe_load(e.content.read())['design']
+            try:
+                raw = await _read_content(e)
+                loaded = yaml.safe_load(raw)
+                if not isinstance(loaded, dict) or 'design' not in loaded:
+                    if isinstance(loaded, dict) and 'body' in loaded:
+                        ui.notify('To jest plik wymiarów ciała! Wgraj go w zakładce Body parameters.', type='warning')
+                    else:
+                        ui.notify('Niepoprawny plik projektu: brak sekcji "design".', type='negative')
+                    return
+                param_dict = loaded['design']
 
-            self.toggle_param_update_events(self.ui_design_refs)  # Don't react to value updates
+                self.toggle_param_update_events(self.ui_design_refs)  # Don't react to value updates
 
-            self.pattern_state.set_new_design(param_dict)
-            self.update_design_params_ui_state(self.ui_design_refs, self.pattern_state.design_params)
-            await self.update_pattern_ui_state()
+                self.pattern_state.set_new_design(param_dict)
+                self.update_design_params_ui_state(self.ui_design_refs, self.pattern_state.design_params)
+                await self.update_pattern_ui_state()
 
-            self.toggle_param_update_events(self.ui_design_refs)  # Re-enable reaction to value updates
+                self.toggle_param_update_events(self.ui_design_refs)  # Re-enable reaction to value updates
 
-            ui.notify(f'Successfully applied {e.name}')
-            self.ui_design_dialog.close()
+                filename = getattr(e, 'name', getattr(getattr(e, 'file', None), 'name', 'plik'))
+                ui.notify(f'Successfully applied {filename}')
+            finally:
+                self.ui_design_dialog.close()
 
         with ui.dialog() as self.ui_design_dialog, ui.card().classes('items-center'):
             # NOTE: https://www.reddit.com/r/nicegui/comments/1393i2f/file_upload_with_restricted_types/
             ui.upload(
                 label='Design parameters .yaml or .json',  
-                on_upload=handle_upload
-            ).classes('max-w-full').props('accept=".yaml,.json"')  
+                on_upload=handle_upload,
+                auto_upload=True
+            ).classes('max-w-full').props('auto-upload accept=".yaml,.json"')  
 
             ui.button('Close without upload', on_click=self.ui_design_dialog.close)
 
@@ -612,8 +656,13 @@ class GUIState:
                     self.ui_body_outline.classes(replace=self.body_outline_classes)
 
                 # New pattern image
-                self.ui_pattern_display.set_source(
-                    str(self.pattern_state.svg_path()) if self.pattern_state.svg_filename else '')
+                if self.pattern_state.svg_filename and self.pattern_state.svg_path().exists():
+                    import base64
+                    svg_bytes = self.pattern_state.svg_path().read_bytes()
+                    b64_svg = base64.b64encode(svg_bytes).decode('ascii')
+                    self.ui_pattern_display.set_source(f'data:image/svg+xml;base64,{b64_svg}')
+                else:
+                    self.ui_pattern_display.set_source('')
                 self.ui_pattern_display.classes(
                         replace=f"""bg-transparent p-0 m-0
                                 absolute 

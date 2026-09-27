@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="211.44197315752785cm" version="1.1" viewBox="-5.508118976038645e-06 -10.0 484.9713919939788 211.44197315752785" width="484.9713919939788cm">
+  <defs/>
+  <path d="M 51.915715312025874,0.0 L 10.0,0.0 C 9.993742990195873,10.271190777442978 15.319894259895905,13.377469511531972 17.709702080172498,20.371365087518623 L 51.915715312025874,32.594184140029796 L 51.915715312025874,0.0" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 61.91572082014485,0.0 L 61.91572082014485,32.594184140029796 L 96.12173405199823,20.371365087518623 C 98.51154187227482,13.377469511531974 103.83769314197485,10.271190777442978 103.83143613217072,0.0 L 61.91572082014485,0.0" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 191.7652516402898,0.0 L 113.83144164028978,4.7720695480929e-15 A 90.72098657876393,90.72098657876393 0 0,0 295.2734147978175,4.7720695480929e-15 L 217.33960479781751,0.0 A 12.787176578763868,12.787176578763868 0 0,1 191.7652516402898,0.0" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 323.2164506418387,3.09564 L 323.2164506418387,0.0 L 305.2734147978176,0.0 L 305.2734147978176,3.09564 L 323.2164506418387,3.09564" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 333.2164506418387,3.09564 L 351.1594864858598,3.09564 L 351.1594864858598,0.0 L 333.2164506418387,0.0 L 333.2164506418387,3.09564" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 361.1594864858598,2.26309 L 403.7289864858598,2.26309 L 403.7289864858598,0.0 L 390.44179001415006,0.0 L 382.36569967738984,0.0 L 374.2896093406297,0.0 L 361.1594864858598,0.0 L 361.1594864858598,2.26309" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 413.7289864858598,42.36058064639597 L 421.83498647005376,42.36058064639597 L 423.2804698033871,30.39903321397923 L 424.7259531367204,42.36058064639597 L 437.9047031525265,42.36058064639597 L 439.3501864858598,28.97328066569849 L 426.3855976594643,26.855630665698488 L 439.3501864858598,24.737980665698487 L 437.63807014776444,20.10433373904849 C 429.73214040792334,19.169533283770367 430.1438547981618,12.558385478889562 429.9211114485591,1.9256537390484922 L 424.87964398585984,0.0 A 11.195052430873988,11.195052430873988 0 0,1 413.7289864858598,10.199042266412036 L 413.7289864858598,42.36058064639597" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 474.9713864858598,42.36058064639597 L 474.9713864858598,10.199042266412036 A 11.195052430873988,11.195052430873988 0 0,1 463.82072898585983,0.0 L 458.7792615231606,1.9256537390484922 C 458.5565181735579,12.558385478889562 458.9682325637963,19.169533283770367 451.0623028239552,20.10433373904849 L 449.3501864858598,24.737980665698487 L 462.31477531225534,26.855630665698488 L 449.3501864858598,28.97328066569849 L 450.79566981919317,42.36058064639597 L 463.9744198349992,42.36058064639597 L 465.41990316833255,30.39903321397923 L 466.86538650166585,42.36058064639597 L 474.9713864858598,42.36058064639597" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 10.0,136.64209492357207 L 10.0,107.5153054893864 A 12.547242364130362,12.547242364130362 0 0,0 21.1506575,100.72098657876393 L 26.35645,102.7094062259408 C 26.083788999999996,113.1439762259408 25.374831999999998,119.6065027259408 33.0826,120.88808622594081 L 33.0826,125.45896891515673 L 32.38339166666667,138.84626891515674 Q 28.453321063545115,138.03712116966665 24.50567785152358,137.50954106163132 L 24.76191017304386,127.43268722835671 L 22.768655651404913,137.31375875890132 Q 20.57025176728215,137.0818790786642 18.367933959198606,136.9300516270166 L 18.18345636227849,125.73144764253982 L 16.62323323698152,136.8223658635075 Q 13.316023535177731,136.64209488998256 10.0,136.64209492357207" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 66.1652,136.64209492357207 Q 62.849176464822264,136.64209488998256 59.54196676301848,136.8223658635075 L 57.98174363772151,125.73144764253982 L 57.79726604080139,136.9300516270166 Q 55.59494823271785,137.0818790786642 53.396544348595086,137.31375875890132 L 51.40328982695614,127.43268722835671 L 51.65952214847642,137.50954106163132 Q 47.71187893645488,138.03712116966665 43.78180833333333,138.84626891515674 L 43.0826,125.45896891515673 L 43.0826,120.88808622594081 C 50.790368,119.6065027259408 50.081411,113.1439762259408 49.80875,102.7094062259408 L 55.0145425,100.72098657876393 A 12.547242364130362,12.547242364130362 0 0,0 66.1652,107.5153054893864 L 66.1652,136.64209492357207" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 76.1652,102.98407657876393 L 76.1652,100.72098657876393 L 84.12767262478651,100.72098657876393 L 88.52903235958304,100.72098657876393 L 95.13108680846995,100.72098657876393 L 101.73314125735685,100.72098657876393 L 106.13450099215338,100.72098657876393 L 113.9399,100.72098657876393 L 113.9399,102.98407657876393 L 76.1652,102.98407657876393" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 165.85561531202586,100.72098657876393 L 165.85561531202586,132.72173147721014 L 131.64960208017249,120.72145214029281 C 129.35504726741303,114.04486014864197 124.05208411690724,109.81178211781554 123.9399,100.72098657876393 L 165.85561531202586,100.72098657876393" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 175.85561531202586,100.72098657876393 L 217.77133062405173,100.72098657876393 C 217.6591465071445,109.81178211781554 212.35618335663872,114.04486014864197 210.06162854387924,120.72145214029281 L 175.85561531202586,132.72173147721014 L 175.85561531202586,100.72098657876393" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 305.70514062405175,100.72098657876393 A 12.787176578763868,12.787176578763868 0 0,0 331.27949378157945,100.72098657876393 L 409.2133037815795,100.72098657876393 A 90.72098657876393,90.72098657876393 0 0,1 227.77133062405173,100.72098657876393 L 305.70514062405175,100.72098657876393" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 437.1563396256007,103.81662657876393 L 419.2133037815796,103.81662657876393 L 419.2133037815796,100.72098657876393 L 437.1563396256007,100.72098657876393 L 437.1563396256007,103.81662657876393" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <path d="M 447.1563396256007,103.81662657876393 L 447.1563396256007,100.72098657876393 L 465.0993754696218,100.72098657876393 L 465.0993754696218,103.81662657876393 L 447.1563396256007,103.81662657876393" fill="rgb(255,255,255)" stroke="rgb(51,51,51)" stroke-width="0.2"/>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="30.95785490195345" y="16.297092070014898">left_sleeve_f</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="51.915715312025874" y="0.0">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="10.0" y="0.0">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="17.709702080172498" y="20.371365087518623">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="51.915715312025874" y="32.594184140029796">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="30.957857656012937" y="-3.0">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="12.536044617133369" y="7.633752122561171">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="34.812708696099186" y="23.48277461377421">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="51.915715312025874" y="13.297092070014898">3</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="82.87358123021731" y="16.297092070014898">right_sleeve_f</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="61.91572082014485" y="0.0">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="61.91572082014485" y="32.594184140029796">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="96.12173405199823" y="20.371365087518623">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="103.83143613217072" y="0.0">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="61.91572082014485" y="13.297092070014898">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="79.01872743607154" y="23.48277461377421">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="101.29539151503738" y="7.633752122561171">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="82.87357847615779" y="-3.0">3</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="204.55242821905364" y="45.360493289381964">skirt_front</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="191.7652516402898" y="0.0">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="113.83144164028978" y="4.7720695480929e-15">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="295.2734147978175" y="4.7720695480929e-15">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="217.33960479781751" y="0.0">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="152.7983466402898" y="-2.999999999999998">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="204.55242821905364" y="87.72098657876393">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="256.3065097978175" y="-2.999999999999998">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="204.55242821905364" y="9.787176578763868">3</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="314.24493271982817" y="1.54782">sl_left_cuff_f</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="323.2164506418387" y="3.09564">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="323.2164506418387" y="0.0">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="305.2734147978176" y="0.0">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="305.2734147978176" y="3.09564">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="323.2164506418387" y="-1.45218">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="314.24493271982817" y="-3.0">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="305.2734147978176" y="-1.45218">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="314.24493271982817" y="0.09563999999999995">3</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="342.18796856384927" y="1.54782">sl_right_cuff_f</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="333.2164506418387" y="3.09564">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="351.1594864858598" y="3.09564">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="351.1594864858598" y="0.0">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="333.2164506418387" y="0.0">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="342.18796856384927" y="0.09563999999999995">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="351.1594864858598" y="-1.45218">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="342.18796856384927" y="-3.0">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="333.2164506418387" y="-1.45218">3</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="382.44423648585985" y="1.131545">wb_front</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="361.1594864858598" y="2.26309">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="403.7289864858598" y="2.26309">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="403.7289864858598" y="0.0">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="390.44179001415006" y="0.0">3</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="382.36569967738984" y="0.0">4</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="374.2896093406297" y="0.0">5</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="361.1594864858598" y="0.0">6</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="382.44423648585985" y="-0.73691">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="403.7289864858598" y="-1.868455">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="397.08538825000494" y="-3.0">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="386.40374484576995" y="-3.0">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="378.3276545090098" y="-3.0">4</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="367.72454791324475" y="-3.0">5</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="361.1594864858598" y="-1.868455">6</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="426.5395864858598" y="21.180290323197983">left_ftorso</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="413.7289864858598" y="42.36058064639597">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="421.83498647005376" y="42.36058064639597">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="423.2804698033871" y="30.39903321397923">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="424.7259531367204" y="42.36058064639597">3</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="437.9047031525265" y="42.36058064639597">4</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="439.3501864858598" y="28.97328066569849">5</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="426.3855976594643" y="26.855630665698488">6</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="439.3501864858598" y="24.737980665698487">7</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="437.63807014776444" y="20.10433373904849">8</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="429.9211114485591" y="1.9256537390484922">9</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="424.87964398585984" y="0.0">10</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="413.7289864858598" y="10.199042266412036">11</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="417.7819864779568" y="39.36058064639597">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="422.55772813672047" y="33.3798069301876">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="424.00321147005377" y="33.3798069301876">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="431.31532814462344" y="39.36058064639597">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="438.62744481919316" y="32.66693065604723">4</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="432.867892072662" y="24.91445566569849">5</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="432.867892072662" y="22.796805665698486">6</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="438.4941283168121" y="19.421157202373486">7</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="430.5069818678729" y="9.947553802292923">8</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="427.4003777172095" y="-2.037173130475754">9</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="421.28473968845924" y="4.264727845632927">10</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="413.7289864858598" y="23.279811456404">11</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="462.16078648585983" y="21.180290323197983">right_ftorso</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="474.9713864858598" y="42.36058064639597">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="474.9713864858598" y="10.199042266412036">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="463.82072898585983" y="0.0">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="458.7792615231606" y="1.9256537390484922">3</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="451.0623028239552" y="20.10433373904849">4</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="449.3501864858598" y="24.737980665698487">5</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="462.31477531225534" y="26.855630665698488">6</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="449.3501864858598" y="28.97328066569849">7</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="450.79566981919317" y="42.36058064639597">8</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="463.9744198349992" y="42.36058064639597">9</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="465.41990316833255" y="30.39903321397923">10</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="466.86538650166585" y="42.36058064639597">11</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="474.9713864858598" y="23.279811456404">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="467.4156332832604" y="4.26472784563292">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="461.29999525451024" y="-2.037173130475754">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="458.19339110384675" y="9.94755380229293">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="450.2062446549075" y="19.421157202373486">4</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="455.8324808990576" y="22.796805665698486">5</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="455.8324808990576" y="24.91445566569849">6</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="450.0729281525265" y="32.66693065604723">7</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="457.3850448270962" y="39.36058064639597">8</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="464.69716150166585" y="33.3798069301876">9</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="466.1426448349992" y="33.3798069301876">10</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="470.9183864937628" y="39.36058064639597">11</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="21.5413" y="119.78362774696033">left_btorso</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="10.0" y="136.64209492357207">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="10.0" y="107.5153054893864">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="21.1506575" y="100.72098657876393">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="26.35645" y="102.7094062259408">3</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="33.0826" y="120.88808622594081">4</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="33.0826" y="125.45896891515673">5</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="32.38339166666667" y="138.84626891515674">6</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="24.50567785152358" y="137.50954106163132">7</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="24.76191017304386" y="127.43268722835671">8</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="22.768655651404913" y="137.31375875890132">9</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="18.367933959198606" y="136.9300516270166">10</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="18.18345636227849" y="125.73144764253982">11</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="16.62323323698152" y="136.8223658635075">12</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="10.0" y="119.07870020647924">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="16.528781129382963" y="102.6829270025454">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="23.753553750000002" y="98.71519640235236">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="26.421824724972243" y="110.54228495934807">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="33.0826" y="120.17352757054877">4</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="32.732995833333334" y="129.15261891515672">5</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="28.456620974459177" y="135.10881874584862">6</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="24.63379401228372" y="129.47111414499403">7</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="23.765282912224386" y="129.373222993629">8</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="20.569273286291956" y="134.10189213581157">9</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="18.27569516073855" y="128.33074963477821">10</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="17.403344799630005" y="128.27690675302367">11</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="13.313820076834245" y="133.68716264176118">12</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="54.6239" y="119.78362774696033">right_btorso</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="66.1652" y="136.64209492357207">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="59.54196676301848" y="136.8223658635075">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="57.98174363772151" y="125.73144764253982">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="57.79726604080139" y="136.9300516270166">3</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="53.396544348595086" y="137.31375875890132">4</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="51.40328982695614" y="127.43268722835671">5</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="51.65952214847642" y="137.50954106163132">6</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="43.78180833333333" y="138.84626891515674">7</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="43.0826" y="125.45896891515673">8</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="43.0826" y="120.88808622594081">9</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="49.80875" y="102.7094062259408">10</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="55.0145425" y="100.72098657876393">11</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="66.1652" y="107.5153054893864">12</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="62.85137992316575" y="133.68716264176118">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="58.76185520036999" y="128.27690675302367">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="57.88950483926145" y="128.33074963477821">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="55.595926713708046" y="134.10189213581157">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="52.39991708777561" y="129.373222993629">4</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="51.53140598771628" y="129.47111414499403">5</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="47.70857902554082" y="135.10881874584862">6</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="43.432204166666665" y="129.15261891515672">7</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="43.0826" y="120.17352757054877">8</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="49.743375275027745" y="110.54228495934805">9</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="52.411646250000004" y="98.71519640235236">10</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="59.636418870617035" y="102.6829270025454">11</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="66.1652" y="119.07870020647924">12</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="95.05255" y="101.85253157876393">wb_back</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="76.1652" y="102.98407657876393">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="76.1652" y="100.72098657876393">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="84.12767262478651" y="100.72098657876393">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="88.52903235958304" y="100.72098657876393">3</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="95.13108680846995" y="100.72098657876393">4</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="101.73314125735685" y="100.72098657876393">5</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="106.13450099215338" y="100.72098657876393">6</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="113.9399" y="100.72098657876393">7</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="113.9399" y="102.98407657876393">8</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="76.1652" y="98.85253157876393">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="80.14643631239326" y="97.72098657876393">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="86.32835249218478" y="97.72098657876393">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="91.83005958402649" y="97.72098657876393">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="98.4321140329134" y="97.72098657876393">4</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="103.93382112475511" y="97.72098657876393">5</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="110.03720049607668" y="97.72098657876393">6</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="113.9399" y="98.85253157876393">7</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="95.05255" y="99.98407657876393">8</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="144.8977576560129" y="116.72135902798703">left_sleeve_b</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="165.85561531202586" y="100.72098657876393">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="165.85561531202586" y="132.72173147721014">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="131.64960208017249" y="120.72145214029281">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="123.9399" y="100.72098657876393">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="165.85561531202586" y="113.72135902798703">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="148.75260869609917" y="123.72159180875147">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="126.69578604437075" y="108.09527201421886">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="144.8977576560129" y="97.72098657876393">3</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="196.8134729680388" y="116.72135902798703">right_sleeve_b</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="175.85561531202586" y="100.72098657876393">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="217.77133062405173" y="100.72098657876393">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="210.06162854387924" y="120.72145214029281">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="175.85561531202586" y="132.72173147721014">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="196.8134729680388" y="97.72098657876393">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="215.015444579681" y="108.09527201421888">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="192.95862192795255" y="123.72159180875147">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="175.85561531202586" y="113.72135902798703">3</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="318.4923172028156" y="146.0814798681459">skirt_back</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="305.70514062405175" y="100.72098657876393">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="331.27949378157945" y="100.72098657876393">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="409.2133037815795" y="100.72098657876393">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="227.77133062405173" y="100.72098657876393">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="318.49231720281557" y="110.50816315752779">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="370.2463987815795" y="97.72098657876393">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="318.4923172028156" y="188.44197315752785">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="266.73823562405175" y="97.72098657876393">3</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="428.18482170359016" y="102.26880657876393">sl_left_cuff_b</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="437.1563396256007" y="103.81662657876393">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="419.2133037815796" y="103.81662657876393">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="419.2133037815796" y="100.72098657876393">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="437.1563396256007" y="100.72098657876393">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="428.18482170359016" y="100.81662657876393">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="419.2133037815796" y="99.26880657876393">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="428.18482170359016" y="97.72098657876393">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="437.1563396256007" y="99.26880657876393">3</text>
+  <text dominant-baseline="middle" fill="rgb(31,31,31)" font-size="7" text-anchor="middle" x="456.12785754761126" y="102.26880657876393">sl_right_cuff_b</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="447.1563396256007" y="103.81662657876393">0</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="447.1563396256007" y="100.72098657876393">1</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="465.0993754696218" y="100.72098657876393">2</text>
+  <text fill="rgb(245,96,66)" font-size="7" x="465.0993754696218" y="103.81662657876393">3</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="447.1563396256007" y="99.26880657876393">0</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="456.12785754761126" y="97.72098657876393">1</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="465.0993754696218" y="99.26880657876393">2</text>
+  <text fill="rgb(44,131,68)" font-size="7" text-anchor="middle" x="456.12785754761126" y="100.81662657876393">3</text>
+</svg>

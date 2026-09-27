@@ -15,18 +15,18 @@ if __name__ == '__main__':
         'neutral': './assets/bodies/mean_all.yaml',
         'mean_female': './assets/bodies/mean_female.yaml',
         'mean_male': './assets/bodies/mean_male.yaml',
+        'dominika': './assets/bodies/dominika.yaml',
 
         # SMPL
         'f_smpl': './assets/bodies/f_smpl_average_A40.yaml',
         'm_smpl': './assets/bodies/m_smpl_average_A40.yaml'
     }
-    body_to_use = 'neutral'   # CHANGE HERE to use different set of body measurements
+    body_to_use = 'dominika'   # CHANGE HERE to use different set of body measurements
 
     body = BodyParameters(bodies_measurements[body_to_use])
 
     design_files = {
-        't-shirt': './assets/design_params/t-shirt.yaml',
-        # Add paths HERE to load other parameters
+        'dress_50s': './assets/design_params/dress_50s.yaml',
     }
     designs = {}
     for df in design_files:
