@@ -48,25 +48,44 @@ class BodiceFrontHalf(BaseBodicePanel):
         bust_line = body['waist_line'] - body['_bust_line']
         side_d_depth = 0.75 * (self.width - bust_point)    # NOTE: calculated value 
         side_d_width = max_len - side_len
-        s_edge, side_interface = self.add_dart(
-            pyg.EdgeSeqFactory.dart_shape(side_d_width, side_d_depth),
-            self.edges[1], 
-            offset=bust_line + side_d_width / 2)
-        self.edges.substitute(1, s_edge)
 
-        # Take some fabric from the top to match the shoulder width
-        s_edge[-1].end[0] += (x_upd:=self.width - body['shoulder_w'] / 2)
-        s_edge[-1].end[1] += (sh_tan * x_upd)
+        enable_side_dart = True
+        if 'shirt' in design and 'side_dart' in design['shirt'] and 'v' in design['shirt']['side_dart']:
+            enable_side_dart = design['shirt']['side_dart']['v']
+
+        if enable_side_dart:
+            s_edge, side_interface = self.add_dart(
+                pyg.EdgeSeqFactory.dart_shape(side_d_width, side_d_depth),
+                self.edges[1], 
+                offset=bust_line + side_d_width / 2)
+            self.edges.substitute(1, s_edge)
+
+            # Take some fabric from the top to match the shoulder width
+            s_edge[-1].end[0] += (x_upd:=self.width - body['shoulder_w'] / 2)
+            s_edge[-1].end[1] += (sh_tan * x_upd)
+        else:
+            side_interface = self.edges[1]
+            self.edges[1].end[0] += (x_upd:=self.width - body['shoulder_w'] / 2)
+            self.edges[1].end[1] += (sh_tan * x_upd)
 
         # Bottom dart
-        b_edge, b_interface = self.add_dart(
-            pyg.EdgeSeqFactory.dart_shape(bottom_d_width, 0.9 * bust_line),
-            self.edges[0], 
-            offset=bust_point + bottom_d_width / 2
-        )
-        self.edges.substitute(0, b_edge)
-        # Take some fabric from side in the bottom (!: after side dart insertion)
-        b_edge[-1].end[0] = - (waist + bottom_d_width) 
+        enable_bottom_dart = True
+        if 'shirt' in design and 'bottom_dart' in design['shirt'] and 'v' in design['shirt']['bottom_dart']:
+            enable_bottom_dart = design['shirt']['bottom_dart']['v']
+
+        if enable_bottom_dart:
+            b_edge, b_interface = self.add_dart(
+                pyg.EdgeSeqFactory.dart_shape(bottom_d_width, 0.9 * bust_line),
+                self.edges[0], 
+                offset=bust_point + bottom_d_width / 2
+            )
+            self.edges.substitute(0, b_edge)
+            # Take some fabric from side in the bottom (!: after side dart insertion)
+            b_edge[-1].end[0] = - (waist + bottom_d_width) 
+        else:
+            # Taper from side seam directly to waist width for a 1:1 smooth connection
+            self.edges[0].end[0] = -waist
+            b_interface = self.edges[0] 
 
         # Interfaces
         self.interfaces = {
@@ -134,7 +153,11 @@ class BodiceBackHalf(BaseBodicePanel):
         }
 
         # Bottom dart as cutout -- for straight line
-        if waist < self.get_width(self.edges[2].end[1] - self.edges[2].start[1]):
+        enable_bottom_dart = True
+        if 'shirt' in design and 'bottom_dart' in design['shirt'] and 'v' in design['shirt']['bottom_dart']:
+            enable_bottom_dart = design['shirt']['bottom_dart']['v']
+
+        if enable_bottom_dart and waist < self.get_width(self.edges[2].end[1] - self.edges[2].start[1]):
             w_diff = waist_width - waist
             side_adj = 0  if w_diff < 4 else w_diff / 6  # NOTE: don't take from sides if the difference is too small
             bottom_d_width = w_diff - side_adj
@@ -162,6 +185,9 @@ class BodiceBackHalf(BaseBodicePanel):
 
             # Remove fabric from the sides if the diff is big enough
             b_edge[-1].end[0] += side_adj
+        elif not enable_bottom_dart:
+            # Taper from side seam directly to waist width for a 1:1 smooth connection
+            self.edges[0].end[0] = -waist
 
         # default placement
         self.translate_by([0, body['height'] - body['head_l'] - length - shoulder_incl, 0])

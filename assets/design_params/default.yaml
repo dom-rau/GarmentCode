@@ -46,6 +46,20 @@ design:
       type: float
       default_prob: 0.5
   shirt:
+    bottom_dart:
+      v: true
+      range:
+      - true
+      - false
+      type: bool
+      default_prob: 0.8
+    side_dart:
+      v: true
+      range:
+      - true
+      - false
+      type: bool
+      default_prob: 0.8
     strapless:
       v: false
       range:

@@ -58,6 +58,8 @@ Parametry określające kształt i dopasowanie tułowia:
 
 | Parametr | Typ / Zakres | Domyślnie | Opis |
 | :--- | :--- | :--- | :--- |
+| **`side_dart`** | `bool` (`true`/`false`) | `true` | Boczna zaszewka piersiowa (modeluje miseczkę/biust z boku tułowia pod pachą). |
+| **`bottom_dart`** | `bool` (`true`/`false`) | `true` | Dolne zaszewki taliowe (pionowe zwężenie gorsetowe do talii). Wyłączenie (`false`) daje gładki, luźny dół idealny do marszczenia gumką lub fasonów prostych. |
 | **`strapless`** | `bool` (`true`/`false`) | `false` | Top gorsetowy bez ramiączek. |
 | **`length`** | `float` (0.5 – 3.5) | `1.0` | Długość góry w relacji do talii (`1.0` = dokładnie do talii, `<1.0` = crop top, `>1.0` = tunika). |
 | **`width`** | `float` (1.0 – 1.3) | `1.05` | Luz w klatce piersiowej/biuście (`1.0` = idealnie dopasowane, `>1.0` = swobodny fason). |
